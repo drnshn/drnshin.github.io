@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+::selection {
+  background: #CCC; 
+}
+::-moz-selection {
+  background: #CCC; 
+}
+
+
+p{
+	font-family: Helvetica, sans-serif
+}
+
+#sidebar_side{
+	background-color: #FF6347;
+	width:495px;
+	height:110%;
+	margin:-10px;
+	position:fixed;
+	
+}
+
+#sidebar{
+	background-color: #1E90FF;
+	width:500px;
+	height:110%;
+	margin:-10px;
+	position:fixed;
+	
+}
+
+#sidebar h1{
+	font-family: Helvetica;
+	color: #FFF;
+	text-align:right;
+	display: inline-block;
+	margin-top: 100px;
+	margin-left:40px;
+	margin-right:50px;
+	position:relative;
+	font-weight:750;
+	font-size:50px;
+}
+
+#sidebar h1:hover{
+	color: #000;
+}
+
+#sidebar p{
+	color: #FFF;
+	font-weight:300;
+	text-align:right;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left:60px;
+	margin-right:50px;
+	margin-bottom:30px;
+	position:relative;
+	font-size:14px;
+	line-height:22px;
+}
+
+#sidebar ul
+{
+	margin-right: 50px;
+	margin-left:50px;
+	margin-bottom:100px;
+	display:inline-block;
+	text-align:center;
+	
+	
+}
+
+#sidebar ul li{
+	color: #FFF;
+	font-family:Helvetica;
+	text-decoration:none;
+	text-align:center;
+	margin-right:20px;
+	margin-left:20px;
+	display: inline-block;
+	width: fit-content;
+}
+
+#sidebar ul p
+{
+	margin-right:10px;
+	margin-left:10px;
+}
+#sidebar a {
+	color: #FFF;
+	font-family:Helvetica;
+	text-decoration:none;
+	text-align:center;
+	
+	padding:0;
+	position:relative;
+	font-size:14px;
+	line-height:22px;
+	
+}
+
+
+#sidebar a:hover {
+	color:#FF6347;
+	background-color:#FFFFFF;
+	font-style:italic;
+}
